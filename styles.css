@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Maple Mono Regular;
+    src: url(./fonts/MapleMono-TTF/MapleMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Maple Mono Bold;
+    src: url(./fonts/MapleMono-TTF/MapleMono-Bold.ttf);
+}
+
+* {
+    background-color: #e0f1f6;
+    font-family: Maple Mono Regular;
+    color: #01161e;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #124559;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #598392;
+}
+
+header,
+.maincontent {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.asidecontent {
+    float: left;
+    width: 30%;
+    max-width: 150px;
+    padding-right: 50px;
+}
+
+#connections {
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+.connection {
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.connectionlink {
+    display: block;
+    margin-left: 10px;
+    text-align: center;
+    display: inline;
+}
+
+.sidephoto {
+    border: solid #598392 3px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.connection-logo {
+    height: 100%;
+    display: inline;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.navbar {
+    margin-top: 20px;
+    position: relative;
+}
+
+.separatordot {
+    display: inline;
+}
+
+.navlink {
+    text-align: center;
+}
+
+.homelink {
+    font-size: 24px;
+    font-family: Maple Mono Bold;
+}
