@@ -8,6 +8,11 @@
     src: url(./fonts/MapleMono-TTF/MapleMono-Bold.ttf);
 }
 
+@font-face {
+    font-family: Maple Mono Light;
+    src: url(./fonts/MapleMono-TTF/MapleMono-Light.ttf);
+}
+
 * {
     background-color: #e0f1f6;
     font-family: Maple Mono Regular;
@@ -23,6 +28,14 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: #598392;
+}
+
+.page-title{
+    color: #124559;
+    font-family: Maple Mono Light;
+    font-size: 48px;
+    text-align: center;
+    margin: 50px auto;
 }
 
 header,
@@ -106,4 +119,26 @@ ul {
 .homelink {
     font-size: 24px;
     font-family: Maple Mono Bold;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-container div{
+    background-color: #e0f1f6;
+    margin: 10px auto;
+}
+
+.project-image{
+    width: 100%;
+    height: auto;
+    border: 2px #01161e solid;
+}
+
+h4{
+    margin: 0px;
 }
