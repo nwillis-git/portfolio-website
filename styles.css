@@ -45,7 +45,7 @@ header,
     margin: 0px auto;
 }
 
-.header-rule{
+hr {
     max-width: 100%;
     margin: 10px;
 }
@@ -129,14 +129,15 @@ ul {
 }
 
 .grid-container div{
-    background-color: #e0f1f6;
-    margin: 10px auto;
+    margin: 10px 10px;
 }
 
 .project-image{
+    box-sizing: border-box;
     width: 100%;
     height: auto;
-    border: 2px #01161e solid;
+    padding: 2px;
+    border: 3px solid #598392;
 }
 
 h4{
