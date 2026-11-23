@@ -27,8 +27,14 @@ a:hover {
 
 header,
 .maincontent {
-    width: 50%;
+    max-width: 1000px;
+    padding: 0px 50px;
     margin: 0px auto;
+}
+
+.header-rule{
+    max-width: 100%;
+    margin: 10px;
 }
 
 .asidecontent {
